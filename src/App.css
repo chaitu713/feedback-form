@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Quicksand:wght@500&family=Roboto+Condensed:ital@1&display=swap");
+
+* {
+  background-color: aliceblue;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+  flex-direction: column;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+}
+
+.main-header {
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  color: steelblue;
+  font-variant: small-caps;
+  font-size: 50px;
+}
+
+h2 {
+  color: steelblue;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+}
+
+.create-frm label {
+  color: darkslateblue;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+}
+
+.first-frm {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+h4 {
+  color: #2a1f62;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  background-color: azure;
+}
+h5 {
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  color: tomato;
+}
+p {
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  color: darkmagenta;
+  background-color: azure;
+}
+.txtfield {
+  border-block-width: 10px;
+  border-right: 10px;
+  border-style: solid;
+  border-color: white;
+  outline-color: #2a1f62;
+  background-color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 70px;
+}
+.column {
+  display: flex;
+  width: 30%;
+  justify-content: space-evenly;
+  margin-bottom: 25px;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  background-color: azure;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  color: #2a1f62;
+  font-weight: 800;
+  font-size: larger;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.button-67 {
+  align-items: center;
+  background: #f5f5fa;
+  border: 0;
+  border-radius: 8px;
+  box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+  box-sizing: border-box;
+  color: steelblue;
+  cursor: pointer;
+  display: flex;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  font-size: 1rem;
+  justify-content: center;
+  line-height: 1.5rem;
+  padding: 15px;
+  position: relative;
+  text-align: left;
+  transition: 0.2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: pre;
+  width: max-content;
+  word-break: normal;
+  word-spacing: normal;
+}
+
+.button-67:hover {
+  background: steelblue;
+  color: #f5f5fa;
+  box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+  transform: scale(1.125);
+}
+.button-67:active {
+  transform: scale(1.025);
+}
+
+.button-24 {
+  background: #2a1f62;
+  border: 1px solid #2a1f62;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
+    monospace;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-24:hover,
+.button-24:active,
+.button-24:focus {
+  background-color: initial;
+  background-position: 0 0;
+  color: #2a1f62;
+}
+
+@media (max-width: 740px) {
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: azure;
+  }
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width: 78%;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  form {
+    width: 85%;
+  }
+  audio {
+    width: 100%;
+  }
+  video {
+    width: 100%;
+    background-color: aliceblue;
+  }
+  .button-24:hover,
+  .button-24:active,
+  .button-24:focus {
+    background-color: initial;
+    background-position: 0 0;
+    color: #2a1f62;
+  }
+  .button-67:hover {
+    background: steelblue;
+    color: #f5f5fa;
+    box-shadow: -15px -15px 30px 0 #fff, 15px 15px 30px 0 #1d0dca17;
+    transform: scale(1.125);
+  }
+  .button-67:active {
+    transform: scale(1.025);
+  }
+}
