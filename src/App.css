@@ -206,20 +206,22 @@ h1 {
     width: 50%;
     margin-bottom: 30px;
     margin-top: 30px;
-    width: 78%;
+    width: 84%;
   }
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
   form {
-    width: 95%;
+    width: 80%;
+    scroll-behavior: unset;
   }
   audio {
     width: 100%;
+    background-color: azure;
   }
   video {
     width: 100%;
-    background-color: aliceblue;
+    background-color: azure;
   }
   .button-24:hover,
   .button-24:active,
