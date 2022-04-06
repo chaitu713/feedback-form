@@ -44,8 +44,7 @@ const initialState = [
     id: 6,
     name: "KR",
     mobile: "9840289204",
-    feedback:
-      ":-•:*Smooth'Transaction*:•.-:¦:-•*Great Seller*•-:¦:-•:*Thank You*•-:",
+    feedback: "*Smooth'Transaction*:•.-:¦:-•*Great Seller*•-:¦:-•:*Thank You*",
     multimedia: "",
   },
 ];
