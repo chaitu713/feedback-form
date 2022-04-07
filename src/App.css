@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Quicksand:wght@500&family=Roboto+Condensed:ital@1&display=swap");
 
-* {
-  background-color: aliceblue;
-}
 .main {
   display: flex;
   justify-content: center;
@@ -19,7 +16,7 @@
     monospace;
   color: steelblue;
   font-variant: small-caps;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 h2 {
@@ -46,7 +43,7 @@ h4 {
   color: #2a1f62;
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
     monospace;
-  background-color: azure;
+  background-color: aliceblue;
 }
 h5 {
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
@@ -97,7 +94,7 @@ p {
   align-items: center;
 }
 h1 {
-  background-color: azure;
+  background-color: aliceblue;
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
     monospace;
   color: #2a1f62;
@@ -239,4 +236,65 @@ h1 {
   .button-67:active {
     transform: scale(1.025);
   }
+}
+
+.audioo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.audioo > label,
+.videoo > label {
+  font-variant: small-caps;
+  color: steelblue;
+  font-size: 20px;
+}
+
+.videoo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.startt {
+  border: green 2px solid;
+  border-radius: 25px;
+  justify-content: center;
+}
+.stopp {
+  border: red 2px solid;
+  border-radius: 25px;
+  justify-content: center;
+}
+.removee {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin-left: 85px;
+  justify-content: center;
+  border: #2a1f62 1px solid;
+  padding: 10px;
+  border-radius: 20px;
+  width: fit-content;
+  background-color: azure;
+}
+.removee > label {
+  font-variant: small-caps;
+  font-size: 20px;
+  color: teal;
+}
+
+.textt > p {
+  color: green;
+}
+
+.filee {
+  margin-left: 70px;
+}
+
+.or {
+  color: #2a1f62;
 }

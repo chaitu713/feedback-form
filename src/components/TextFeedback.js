@@ -63,7 +63,7 @@ const TextFeedback = () => {
           <h3 className="main-header">Feedback Form</h3>
           <form className="create-frm">
             <div className="first-frm">
-              <label htmlFor="nameInput">Name</label>
+              <label htmlFor="nameInput">Name:</label>
               <input
                 className="txtfield"
                 type="text"
@@ -74,7 +74,7 @@ const TextFeedback = () => {
                 required
               />
               <br />
-              <label htmlFor="telInput">Mobile</label>
+              <label htmlFor="telInput">Mobile:</label>
               <input
                 className="txtfield"
                 type="tel"
@@ -86,7 +86,7 @@ const TextFeedback = () => {
                 required
               />
               <br />
-              <label htmlFor="feedback">Feedback</label>
+              <label htmlFor="feedback">Feedback:</label>
               <textarea
                 className="txtfield"
                 id="feedback"
