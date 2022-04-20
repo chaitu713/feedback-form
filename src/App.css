@@ -44,17 +44,20 @@ h4 {
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
     monospace;
   background-color: aliceblue;
+  font-size: large;
 }
 h5 {
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
     monospace;
   color: tomato;
+  font-size: medium;
 }
 p {
   font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono",
     monospace;
   color: darkmagenta;
   background-color: azure;
+  font-size: medium;
 }
 .txtfield {
   border-block-width: 10px;
@@ -300,4 +303,12 @@ h1 {
 
 .or {
   color: #2a1f62;
+}
+
+.vdo {
+  overflow: auto;
+}
+.alert {
+  background-color: white;
+  border: none;
 }

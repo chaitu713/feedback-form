@@ -6,7 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import MicRecorder from "mic-recorder-to-mp3";
 import MicIcon from "@mui/icons-material/Mic";
 import MicOffIcon from "@mui/icons-material/MicOff";
-import RemoveCircleRoundedIcon from "@mui/icons-material/RemoveCircleRounded";
+// import RemoveCircleRoundedIcon from "@mui/icons-material/RemoveCircleRounded";
 
 const Mp3Recorder = new MicRecorder({
   bitRate: 128,
@@ -159,6 +159,7 @@ const MultimediaFeedback = () => {
                   </div>
                 )}
               </div>
+              <br />
               <h4 align="center" className="or">
                 OR
               </h4>
@@ -176,7 +177,7 @@ const MultimediaFeedback = () => {
                 />
               </div>
               <br />
-              <div title="Remove" className="removee">
+              {/* <div title="Remove" className="removee">
                 <label>Remove File</label>
                 <IconButton color="error">
                   <RemoveCircleRoundedIcon
@@ -193,7 +194,7 @@ const MultimediaFeedback = () => {
                     }}
                   />
                 </IconButton>
-              </div>
+              </div> */}
 
               <br />
               {error && error}

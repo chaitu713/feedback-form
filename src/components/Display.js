@@ -18,12 +18,18 @@ const Display = (props) => {
                 <audio controls src={multimedia} />
               )}
               {multimedia?.length > 0 && format === "video" && (
-                <video
-                  controls
-                  src={multimedia}
-                  width={"350px"}
-                  height={"200px"}
-                />
+                <div className="alert alert-success alert-dismissible">
+                  <button type="button" className="close" data-dismiss="alert">
+                    &times;
+                  </button>
+                  <video
+                    className="vdo"
+                    controls
+                    src={multimedia}
+                    width={"350px"}
+                    height={"200px"}
+                  />
+                </div>
               )}
             </div>
           </div>
